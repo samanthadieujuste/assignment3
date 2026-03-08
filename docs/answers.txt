@@ -1,0 +1,48 @@
+Completed Git Lab Tutorials 03/08/26
+Setup GitHub 03/08/26
+https://github.com/samanthadieujuste/assignment3
+1. 
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 790 bytes | 790.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/samanthadieujuste/assignment3.git
+   f4975e5..5886b74  master -> master
+2.
+9 commits total.
+Command: git rev-list --count HEAD
+
+3.
+Sun Mar 8 12:57:56 2026 -0400
+Command: git log -1 README.md
+
+4.
+Two reasons branches are used in a Git repository are to isolate development work from the main branch and allow multiple developers to work on different things at the same time.
+
+5.
+git log shows history.
+git status shows the current state.
+
+6.
+git log -- Vehicle.h
+
+7.
+git log --grep="file"
+
+8.
+Inheritance means a child class inherits the properties of a parent class.
+Polymorphism means that different classes can have different functionalities while sharing a common base class.
+Encapsulation is hiding the internal data of a class and only allowing access through public methods.
+
+9.
+The main difference is that in the Integration Manager workflow, developers push changes to their own public repository and an integration manager pulls those changes and meges them into the central repository. While in a Dictator and Lieutenants workflow developers push changes to lieutenant repositories and lieuenants mege and manage these changes before the dictator merges the lieutenant repositories into the central repositoy. 
+
+So basically, the lieutenants act as another layer of "checks" to a developers work.
+
+10.
+With a larger team there are a lot of changes that could occur. A Dictator and Lieutenants workflow distributes the work of reviewing and merging code which reduces conflict and improves managability.
+
+ 
